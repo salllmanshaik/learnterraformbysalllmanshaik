@@ -1,0 +1,1 @@
+class = "This is picked by class variable automatically"

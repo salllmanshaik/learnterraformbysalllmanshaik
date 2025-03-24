@@ -1,0 +1,1 @@
+trainer = "This is picked by trainer variable automatically"
