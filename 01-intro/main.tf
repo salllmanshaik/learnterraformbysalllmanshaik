@@ -4,6 +4,6 @@ provider local {}
 
 resource "local_file" "first" {
   content  = "Welcome to learning terraform by sallman"
-  filename = "tmp/first.bar"
+  filename = "/tmp/first.bar"
 }
 
