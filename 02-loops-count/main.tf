@@ -7,6 +7,7 @@ resource "null_resource" "dummy" {   #we are using null resource
 
 }
 
+
 variable "x" {
   default = [
     1,
