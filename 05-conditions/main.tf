@@ -29,5 +29,5 @@ variable "x" {
   type = number
 }
 output "x" {
-  value = var.x == 1 ? 100 : (var.x == 2 ? 200 : 0)
+  value = var.x == 1 ? 100 : var.x == 2 ? 200 : 0
 }
