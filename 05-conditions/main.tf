@@ -25,9 +25,7 @@ resource "null_resource" "test" {
 
 # x = var.x == 1 ? "100" : var.x == 2 ? "200" : 0
 
-variable "x" {
-  type = number
-}
+variable "x" {}
 output "x" {
   value = var.x == 1 ? 100 : (var.x == 2 ? 200 : 0)
 }
